@@ -6,6 +6,7 @@ public class CheckNumeric {
 		// constructor
 	}
 	
+	//get result check numeric
 	public boolean getCheckNumeric(String strText) {
 		return StringUtils.isNumeric(strText);
 	}
