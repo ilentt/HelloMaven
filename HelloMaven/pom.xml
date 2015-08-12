@@ -12,6 +12,22 @@
   	</dependency>
   </dependencies>
   
-  
+  <build>
+  	<plugins>
+  		<plugin>
+  			<artifactId>HelloMaven</artifactId>
+  			<version>0.0.1-SNAPSHOT</version>
+  			<configuration>
+		     <archive>
+		       <manifest>
+		         <addClasspath>true</addClasspath>
+		         <classpathPrefix>lib/</classpathPrefix>
+		         <mainClass>ilen.CheckNumeric</mainClass>
+		       </manifest>
+		     </archive>
+		   </configuration>
+  		</plugin>
+  	</plugins>
+  </build>
   
 </project>
